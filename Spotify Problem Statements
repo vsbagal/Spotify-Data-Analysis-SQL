@@ -26,5 +26,8 @@ and Milliseconds for each track. Order by the song length with the longest songs
 /* QUE9. Find how much amount spent by each customer on artists. Write a query to return customer name,
  artist name, and total spent */
 
+/* QUE10. We want to find out the most popular music Genre for each country. We determine the most popular
+genre as the genre with the highest amount of purchases. Write a query that returns each country along with
+the top Genre. For countries where the maximum number of purchases is  shared return all Genres */
 
 
