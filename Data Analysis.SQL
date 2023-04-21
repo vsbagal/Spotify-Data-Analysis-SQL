@@ -9,18 +9,18 @@ ORDER BY levels DESC
 LIMIT 1
 
 
--- QUE2. Which countries have the most Invoices?
+-- QUE2. Which top 5 countries have the most Invoices?
 
 SELECT COUNT(*) AS c, billing_country 
 FROM invoice
 GROUP BY billing_country
 ORDER BY c DESC
-LIMIT 1
+LIMIT 5
 
 
--- QUE3. What are the top 3 values of the total invoice?
+-- QUE3. What are the top 5 values of the total invoice?
 
 SELECT total 
 FROM invoice
 ORDER BY total DESC
-LIMIT 3
+LIMIT 5
