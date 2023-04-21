@@ -15,3 +15,12 @@ SELECT COUNT(*) AS c, billing_country
 FROM invoice
 GROUP BY billing_country
 ORDER BY c DESC
+LIMIT 1
+
+
+-- QUE3. What are the top 3 values of the total invoice?
+
+SELECT total 
+FROM invoice
+ORDER BY total DESC
+LIMIT 3
