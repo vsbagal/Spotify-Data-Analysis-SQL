@@ -30,4 +30,6 @@ and Milliseconds for each track. Order by the song length with the longest songs
 genre as the genre with the highest amount of purchases. Write a query that returns each country along with
 the top Genre. For countries where the maximum number of purchases is  shared return all Genres */
 
-
+/* QUE11. Write a query that determines the customer that has spent the most on music for each
+country. Write a query that returns the country along with the top customer and howmuch they spent.
+ For countries where the top amount spent is shared, provide all customers who spent this amount */
