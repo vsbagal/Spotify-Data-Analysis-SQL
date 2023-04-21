@@ -33,3 +33,6 @@ the top Genre. For countries where the maximum number of purchases is  shared re
 /* QUE11. Write a query that determines the customer that has spent the most on music for each
 country. Write a query that returns the country along with the top customer and howmuch they spent.
  For countries where the top amount spent is shared, provide all customers who spent this amount */
+ 
+ 
+ <img src="https://cdn.dribbble.com/users/441326/screenshots/3165191/spotify-gif---oliver-keane.gif" alt="zomato dish" width="1000" height="400">
