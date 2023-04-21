@@ -23,3 +23,8 @@ query that returns the Artist name and total track count of the top 10 rock band
 /* QUE8. Return all the track names that have a song length longer than the average song length. Return the Name
 and Milliseconds for each track. Order by the song length with the longest songs listed first  */
 
+/* QUE9. Find how much amount spent by each customer on artists. Write a query to return customer name,
+ artist name, and total spent */
+
+
+
