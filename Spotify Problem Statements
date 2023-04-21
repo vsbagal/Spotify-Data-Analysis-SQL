@@ -17,4 +17,9 @@ customer. Write a query that returns the person who has spent the most money*/
 /* QUE6. Write a query to return the email, first name, last name, & Genre of all Rock Music listeners.
 Return your list ordered alphabetically by email starting with A
 
+/* QUE7. Let’s invite the artists who have written the most rock music in our dataset. Write a
+query that returns the Artist name and total track count of the top 10 rock bands */
+
+/* QUE8. Return all the track names that have a song length longer than the average song length. Return the Name
+and Milliseconds for each track. Order by the song length with the longest songs listed first  */
 
