@@ -136,3 +136,8 @@ FROM sales_per_country
 JOIN max_genre_per_country ON sales_per_country.country = max_genre_per_country.country
 WHERE sales_per_country.purchases_per_genre = max_genre_per_country.max_genre_number;
 
+
+/* QUE11. Write a query that determines the customer that has spent the most on music for each
+country. Write a query that returns the country along with the top customer and howmuch they spent.
+ For countries where the top amount spent is shared, provide all customers who spent this amount */
+
