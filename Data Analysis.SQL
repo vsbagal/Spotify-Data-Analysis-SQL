@@ -111,6 +111,8 @@ JOIN best_selling_artist bsa ON bsa.artist_id = alb.artist_id
 GROUP BY 1,2,3,4
 ORDER BY 5 DESC;
 
+
+
 /* QUE10. We want to find out the most popular music Genre for each country. We determine the most popular
 genre as the genre with the highest amount of purchases. Write a query that returns each country along with
 the top Genre. For countries where the maximum number of purchases is  shared return all Genres */
@@ -135,6 +137,7 @@ SELECT sales_per_country.*
 FROM sales_per_country
 JOIN max_genre_per_country ON sales_per_country.country = max_genre_per_country.country
 WHERE sales_per_country.purchases_per_genre = max_genre_per_country.max_genre_number;
+
 
 
 /* QUE11. Write a query that determines the customer that has spent the most on music for each
