@@ -88,6 +88,8 @@ WHERE milliseconds > (
 ORDER BY milliseconds DESC;
 
 
+/* QUE9. Find how much amount spent by each customer on artists. Write a query to return customer name,
+ artist name, and total 
 
 
 
